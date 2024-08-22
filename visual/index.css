@@ -1,0 +1,61 @@
+@media screen {
+    body{
+        background-color: rgba(93,111,44,0.42);
+    }
+
+    header{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    main{
+        background-image: url("../media/images/OIP.jpeg");
+        background-size: cover; /* Ajusta la imagen para cubrir el fondo sin importar la proporción */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-attachment: local; /* Mantiene la imagen fija mientras se hace scroll */
+        background-position: center; /* Centra la imagen en el fondo */
+        display: flex;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+        max-width: 100%;
+        border-radius: 20px;
+        justify-content: center;
+    }
+
+    form{
+        height: 29%;
+        border: solid;
+        border-radius: 30px;
+        background-color: white;
+        padding: 10px;
+        margin: 1px;
+    }
+
+    .username,.password,button{
+        margin: 2px;
+        padding: 2px;
+    }
+
+    form{
+        max-width: 320px;
+        height: auto;
+        text-align: left;
+    }
+
+    .boton{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    input{
+        text-align: left;
+    }
+
+    footer{
+        height:30px;
+        max-width: 100%;
+        text-align: center;
+    }
+}
